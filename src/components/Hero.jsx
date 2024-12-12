@@ -1,4 +1,4 @@
-import profilePic from "../assets/raviKumarProfile.webp"
+import profilePic from "../assets/ProfilePic.jpg"
 import {HERO_CONTENT} from "../constants"
 import {motion} from "framer-motion"
 
@@ -28,9 +28,9 @@ const Hero = () => {
                     <motion.img 
                     src={profilePic}
                     alt="Raj"
-                    className="border border-stone-900 rounded-3xl"
-                    width={650}
-                    height={650}
+                    className="border border-solid border-gray-900  rounded-2xl"
+                    width={300}
+                    height={300}
                     initial={{ x: 100, opacity : 0}}
                     animate={{ x: 0, opacity:1}}
                     transition={{ duration: 1, delay: 1.5}}/>
@@ -42,7 +42,7 @@ const Hero = () => {
                     initial="hidden"
                     animate="visible"
                     variants={containerVariants}
-                    className="flex flex-col items-center lg:items-start mt-10">
+                    className="flex flex-col items-center lg:items-start mt-10 width-50">
                     <motion.h2 
                         variants={childVariants}
                         className="pb-2 text-4xl tracking-tighter lg:text-8xl">Raj Majumdar</motion.h2>

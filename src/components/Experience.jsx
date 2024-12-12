@@ -9,7 +9,7 @@ const Experience = () => {
             initial={{opacity: 0, y: -100}}
             transition={{duration: 0.5}}
         
-        className="my-20 text-center text-4xl">Experience</motion.h2>
+        className="my-20 text-center text-4xl">Timeline</motion.h2>
         <div>
             {EXPERIENCES.map((experience, index)=>
                 <div key= {index} className="mb-8 flex flex-wrap lg: justify-center">

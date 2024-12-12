@@ -35,25 +35,26 @@ const Technologies = () => {
             transition={{duration: 1.5}}
             className='flex flex-wrap items-center justify-center gap-4'>
 
+
             <motion.div
                 initial='initial'
                 animate='animate'
-                variants={iconVariants(2.5)}>
-                <RiReactjsLine className='text-7xl text-cyan-400'/>
+                variants={iconVariants(1)}
+                className='p-4'>
+                <FaJava className='text-7xl text-red-600'/>
             </motion.div>
 
             <motion.div
                 initial='initial'
                 animate='animate'
-                variants={iconVariants(3)}
-                className='p-4'>
-                <FaJava className='text-7xl text-red-600'/>
+                variants={iconVariants(2)}>
+                <RiReactjsLine className='text-7xl text-cyan-400'/>
             </motion.div>
 
             <motion.div 
                 initial='initial'
                 animate='animate'
-                variants={iconVariants(5)}
+                variants={iconVariants(3)}
                 className='p-4'>
                 <FaPython className='text-7xl text-yellow-400' />
             </motion.div>
@@ -69,7 +70,7 @@ const Technologies = () => {
             <motion.div
                 initial='initial'
                 animate='animate'
-                variants={iconVariants(6)}
+                variants={iconVariants(2)}
                 className='p-4'>
                 <FaNodeJs className='text-7xl text-green-500' />
             </motion.div>
@@ -77,7 +78,7 @@ const Technologies = () => {
             <motion.div
                 initial='initial'
                 animate='animate'
-                variants={iconVariants(4 )}
+                variants={iconVariants(1)}
                 className='p-4'>
                 <SiMongodb className='text-7xl text-cyan-500' />
             </motion.div>
