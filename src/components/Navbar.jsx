@@ -7,7 +7,7 @@ const Navbar = () => {
 
         <div className="flex flex-shrink-0 items-center">
             <a href="/" aria-label="Home">
-                <img src={logo} className="mx-1" width={60} height={33} alt="logo" />
+                <img src={logo} className="mx-1 mix-blend-screen z-[20]" width={60} height={33} alt="logo" />
             </a>
         </div>
 
