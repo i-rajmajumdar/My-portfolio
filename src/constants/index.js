@@ -9,14 +9,14 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "Sep 2024 - Present",
+    year: "2024 - Present",
     role: "Graduate Trainee",
     company: "Tata Consultancy Services",
     description: `Learned and still learning and exploring various technologies in these 4 months as an Ignite Trainee and worked on a microfrontend project name "HourAim".`,
     technologies: ["Java", "MERN", "Python", "AI/ML"],
   },
   {
-    year: "2021 - Mar 2024",
+    year: "2021 - 2024",
     role: "Student",
     company: "Dr. Virendra Swarup Institute of Computer Studies",
     description: `Explored various new technologies for problem-solving using C, C++, Java and Python. Worked closely with Java to enhance my programming skills.`,

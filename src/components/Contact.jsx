@@ -3,7 +3,7 @@ import {motion} from "framer-motion"
 
 const Contact = () => {
   return (
-    <div className=" border-t border-stone-900 pb-20">
+    <div className=" border border-l-0 border-r-0 pb-10">
         <motion.h2 
             whileInView={{opacity: 1, y:0}}
             initial={{opacity: 0, y: -100}}
@@ -26,7 +26,7 @@ const Contact = () => {
                 className="my-4">
                 {CONTACT.phoneNo}
             </motion.p>
-            <a href="#" className="border-b">
+            <a href="#" className="border-b text-purple-300">
                 {CONTACT.email}
             </a>
         </div>

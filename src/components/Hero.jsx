@@ -1,4 +1,4 @@
-import profilePic from "../assets/pb.png"
+import profilePic from "../assets/Profile.png"
 import {HERO_CONTENT} from "../constants"
 import {motion} from "framer-motion"
 import '../App.css'
@@ -23,19 +23,19 @@ const childVariants ={
 
 const Hero = () => {
   return (
-    <div className="pb-4 lg:mb-36">
+    <div className="pb-4 lg:mb-36 mx-16">
         <div className="flex flex-wrap  lg:flex-row-reverse">
             <div className="w-full lg:w-1/2">
-                <div className="flex justify-center lg:p-8">
+                <div className="flex justify-center lg:p-8 shad">
                     <motion.img 
                     src={profilePic}
                     alt="Raj"
-                    className=" raj"
-                    width={400}
-                    height={400}
+                    className=" raj "
+                    width={350}
+                    height={350}
                     initial={{ x: 100, opacity : 0}}
                     animate={{ x: 0, opacity:1}}
-                    transition={{ duration: 1, delay: 1.5}}/>
+                    transition={{ duration: 0.5, delay: 0.5}}/>
                 </div>
             </div>
             <div className="w-full lg:w-1/2">
@@ -47,28 +47,35 @@ const Hero = () => {
                     className="flex flex-col items-center lg:items-start mt-10 width-50">
                     <motion.h2 
                         variants={childVariants}
-                        className="pb-2 text-4xl tracking-tighter lg:text-8xl">Raj Majumdar</motion.h2>
+                        className="pb-2 text-5xl tracking-tighter lg:text-6xl">Raj Majumdar</motion.h2>
                     <motion.span 
                         variants={childVariants}
                         className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-light text-transparent flex items-center">I'm a{" "}
                         <span className="ml-2">
                             <Typewriter options={{
-                                strings: ["Developer.","Designer."], autoStart:true,loop:true
+                                strings: ["Developer.","Designer."],
+                                autoStart:true,
+                                loop:true,
+                                delay: 100, // Speed of typing (lower = faster)
+                                deleteSpeed: 50, // Speed of deletion
+                                pauseFor: 1000, // Pause between typing loops
                             }}/>
                         </span>
-                        </motion.span>
+                        </motion.span>  
+
                     <motion.p
                         variants={childVariants}
-                        className="my-2 max-w-lg py-6 text-xl text-justify leading-relaxed tracking-tighter">
+                        className="my-2 max-w-lg py-6 text-lg text-justify leading-relaxed tracking-tighter">
                         {HERO_CONTENT}
                     </motion.p>
+                    
                     <motion.a 
                     variants={childVariants}
                     href="#"   //resume
                     target="_blank"
                     rel="noopener noreferrer"
                     download
-                    className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10">
+                    className="bg-teal-500 rounded-full p-4 text-sm text-stone-950 mb-10">
                         Download Resume
                     </motion.a>
                 </motion.div>
