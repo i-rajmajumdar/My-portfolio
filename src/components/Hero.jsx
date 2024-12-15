@@ -26,7 +26,7 @@ const Hero = () => {
     <div className="pb-4 lg:mb-36 mx-16">
         <div className="flex flex-wrap  lg:flex-row-reverse">
             <div className="w-full lg:w-1/2">
-                <div className="flex justify-center lg:p-8 shad">
+                <div className="flex justify-center lg:p-8 raj-div">
                     <motion.img 
                     src={profilePic}
                     alt="Raj"

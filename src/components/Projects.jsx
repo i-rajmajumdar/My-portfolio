@@ -3,20 +3,20 @@ import {motion} from "framer-motion"
 
 const Projects = () => {
   return (
-    <div className="pb-24 text-center">
+    <div className=" text-center ">
     <motion.h2 
         whileInView={{opacity:1, y:0}}
         initial={{opacity: 0, y: -100}}
         transition={{duration : 0.5}}
         className="my-20 text-centre text-4xl">Projects</motion.h2>
-    <div>
+    <div className=" p-4">
         {PROJECTS.map((project, index)=>(
-            <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
+            <div key={index} className="mb-8 flex flex-wrap lg:justify-center ">
                 <motion.div 
                     whileInView={{opacity:1, x:0}}
                     initial={{opacity: 0, x: -100}}
                     transition={{duration : 1}}
-                    className="w-full lg:w-1/4">
+                    className="w-full lg:w-1/4 justify-items-center ">
                     <img src={project.image}
                     width={250}
                     height={250}

@@ -26,7 +26,7 @@ const Contact = () => {
                 className="my-4">
                 {CONTACT.phoneNo}
             </motion.p>
-            <a href="#" className="border-b text-purple-300">
+            <a href='#' className="border-b text-purple-300">
                 {CONTACT.email}
             </a>
         </div>

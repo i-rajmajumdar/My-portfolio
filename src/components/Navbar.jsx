@@ -3,7 +3,7 @@ import {FaGithub, FaInstagram, FaLinkedin} from "react-icons/fa"
 import { FaSquareXTwitter } from "react-icons/fa6"
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between  px-16 "> 
+    <nav className="flex items-center justify-between px-8 lg:px-16 "> 
 
         <div className="flex flex-shrink-0 items-center">
             <a href="/" aria-label="Home">
