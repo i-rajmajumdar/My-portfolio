@@ -1,4 +1,4 @@
-import profilePic from "../assets/Profile.png"
+import profilePic from "../assets/Profile.webp"
 import {HERO_CONTENT} from "../constants"
 import {motion} from "framer-motion"
 import '../App.css'
@@ -30,7 +30,7 @@ const Hero = () => {
                     <motion.img 
                     src={profilePic}
                     alt="Raj"
-                    className=" raj "
+                    className=" raj" 
                     width={350}
                     height={350}
                     initial={{ x: 100, opacity : 0}}
@@ -71,7 +71,7 @@ const Hero = () => {
                     
                     <motion.a 
                     variants={childVariants}
-                    href="#"   //resume
+                    href="src\assets\Raj_Majumdar.pdf"   //resume
                     target="_blank"
                     rel="noopener noreferrer"
                     download

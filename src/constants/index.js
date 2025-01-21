@@ -20,14 +20,14 @@ export const EXPERIENCES = [
     role: "Student",
     company: "Dr. Virendra Swarup Institute of Computer Studies",
     description: `Explored various new technologies for problem-solving using C, C++, Java and Python. Worked closely with Java to enhance my programming skills.`,
-    technologies: ["C", "C++", "Python", "Java"],
+    technologies: ["C", "C++", "Python", "Java", "MERN"],
   },
   {
     year: "2018 - 2021",
     role: "Student",
     company: "Acme Public School",
-    description: `Developed all core personalities. Explored various subjects, sports and co-curricular activites which in turn made me the person I'm today.`,
-    technologies: ["PCM", "Java", "Sports", "Co-curricular activities"],
+    description: `Developed all core personality traits. Explored various subjects, sports and co-curricular activites which in turn made me the person I'm today.`,
+    technologies: ["PCM", "Java", "Sports", "Co-curriculars"],
   },
   
 ];
